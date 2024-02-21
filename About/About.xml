@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <packageId>Effervescent.PersonalityPlease.Core</packageId>
+  <name>Personality Please: Core</name>
+  <author>effervescent</author>
+  <description>NYI</description>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <loadBefore>
+    <li>effervescent.personalityplease</li>
+    <li>effervescent.personalityplease.romance</li>
+    <li>effervescent.personalityplease.lovin</li>
+  </loadBefore>
+</ModMetaData>

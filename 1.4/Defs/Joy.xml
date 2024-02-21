@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <!-- JoyKindDefs -->
+  <JoyKindDef>
+    <defName>PP_Lovin</defName>
+    <label>adult fun</label>
+    <needsThing>false</needsThing>
+  </JoyKindDef>
+</Defs>
