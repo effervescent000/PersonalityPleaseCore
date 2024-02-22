@@ -11,14 +11,14 @@ public enum LovinContext
 
 public class LovinProps
 {
-    private Pawn actor;
-    private Pawn partner;
-    private LovinContext context;
+    public Pawn Actor;
+    public Pawn Partner;
+    public LovinContext Context;
 
-    public LovinProps(Pawn actor, Pawn partner, LovinContext context)
+    public LovinProps(LovinContext context, Pawn actor, Pawn partner = null)
     {
-        this.actor = actor;
-        this.partner = partner;
-        this.context = context;
+        this.Actor = actor;
+        this.Partner = partner;
+        this.Context = context;
     }
 }
