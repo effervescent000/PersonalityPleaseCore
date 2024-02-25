@@ -1,9 +1,6 @@
 ﻿using RimWorld;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Verse;
 
 namespace Personality.Core;
@@ -31,5 +28,17 @@ public static class CoreLovinHelper
             return beds[0];
         }
         return null;
+    }
+
+    public static bool IsInOrByBed(Building_Bed bed, Pawn pawn)
+    {
+        for (int i = 0; i < bed.SleepingSlotsCount; i++)
+        {
+            if (bed.GetSleepingSlotPos(i).InHorDistOf(pawn.Position, 1f))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }

@@ -7,6 +7,7 @@ public enum LovinContext
     SelfLovin,
     Casual,
     Intimate,
+    Seduced,
 }
 
 public class LovinProps
@@ -17,8 +18,8 @@ public class LovinProps
 
     public LovinProps(LovinContext context, Pawn actor, Pawn partner = null)
     {
-        this.Actor = actor;
-        this.Partner = partner;
-        this.Context = context;
+        Actor = actor;
+        Partner = partner;
+        Context = context;
     }
 }

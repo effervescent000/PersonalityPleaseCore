@@ -3,3 +3,4 @@ bin/
 obj/
 Assemblies/*Harmony.dll
 Assemblies/Personality Please.dll
+/1.4/Assemblies/Personality-Core.dll
