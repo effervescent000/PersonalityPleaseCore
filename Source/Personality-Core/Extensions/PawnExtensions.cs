@@ -85,4 +85,35 @@ public static class PawnExtensions
         }
         return false;
     }
+
+    public static int GetSeed(this Pawn pawn)
+    {
+        int thingID = pawn.thingIDNumber;
+        int worldID = Find.World.info.Seed;
+        return Gen.HashCombineInt(thingID, worldID);
+    }
+
+    public static bool IsAttractedToMen(this Pawn pawn)
+    {
+        if (pawn.IsBisexual()) { return true; }
+        if (pawn.gender == Gender.Male)
+        {
+            if (pawn.IsStraight()) { return false; };
+            return true;
+        }
+        if (pawn.IsStraight()) { return true; }
+        return false;
+    }
+
+    public static bool IsAttractedToWomen(this Pawn pawn)
+    {
+        if (pawn.IsBisexual()) { return true; }
+        if (pawn.gender == Gender.Female)
+        {
+            if (pawn.IsStraight()) { return false; };
+            return true;
+        }
+        if (pawn.IsStraight()) { return true; }
+        return false;
+    }
 }

@@ -2,7 +2,7 @@
 <Defs>
   <!-- JoyKindDefs -->
   <JoyKindDef>
-    <defName>PP_Lovin</defName>
+    <defName>PP_LovinJoy</defName>
     <label>adult fun</label>
     <needsThing>false</needsThing>
   </JoyKindDef>

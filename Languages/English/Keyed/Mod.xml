@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- the mod itself -->
+  <PP.Core>Personality Please: Core</PP.Core>
+
+  <!-- settings -->
+  <PP.MaxInteractDistance.Label>Max interaction distance</PP.MaxInteractDistance.Label>
+  <PP.MaxInteractDistance.Desc>Maximum distance between two pawns for them to be considered valid interaction targets (this only affects interactions added by PP).</PP.MaxInteractDistance.Desc>
+
+  <!-- pregnancy stuff -->
+  <PP.CasualLovinPregChance.Label>Casual Lovin' pregnancy chance</PP.CasualLovinPregChance.Label>
+  <PP.CasualLovinPregChance.Desc>Chance for a pawn to get pregnant from casual lovin', before other factors such as fertility.</PP.CasualLovinPregChance.Desc>
+
+  <PP.IntimateLovinPregChance.Label>Intimate Lovin' pregnancy chance</PP.IntimateLovinPregChance.Label>
+  <PP.IntimateLovinPregChance.Desc>Chance for a pawn to get pregnant from intimate lovin', before other factors such as fertility.</PP.IntimateLovinPregChance.Desc>
+
+  <PP.SeducedLovinPregChance.Label>Seduced Lovin' pregnancy chance</PP.SeducedLovinPregChance.Label>
+  <PP.SeducedLovinPregChance.Desc>Chance for a pawn to become pregnant in a seduction encounter, before other factors such as fertility.</PP.SeducedLovinPregChance.Desc>
+
+
+</LanguageData>
