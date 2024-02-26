@@ -42,11 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoreMod.cs" />
     <Compile Include="Helpers\CoreGeneralHelper.cs" />
     <Compile Include="Helpers\CoreLovinHelper.cs" />
-    <Compile Include="LovinProps.cs" />
+    <Compile Include="Helpers\CorePersonalityHelper.cs" />
+    <Compile Include="Helpers\LovinProps.cs" />
     <Compile Include="Extensions\PawnExtensions.cs" />
+    <Compile Include="OnStartup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\CoreSettings.cs" />
+    <Compile Include="Settings\SettingsUI.cs" />
+    <Compile Include="Settings\SettingValues.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
@@ -57,5 +63,6 @@
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
