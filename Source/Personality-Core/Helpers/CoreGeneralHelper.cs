@@ -20,4 +20,9 @@ public static class CoreGeneralHelper
     {
         return (int)(GenDate.TicksPerHour * hourMulti * Rand.Range(lowerBound, upperBound));
     }
+
+    public static bool IsTargetInRange(Pawn actor, Pawn target)
+    {
+        return actor.Position.InHorDistOf(target.Position, CoreMod.Settings.MaxInteractionDistance.Value);
+    }
 }
